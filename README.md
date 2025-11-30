@@ -2,7 +2,7 @@
 <h3 align="center">Grower and IPM specialist with a focus in floriculture and cannabis</h3>
 <img align="center" src="https://capsule-render.vercel.app/api?type=venom&height=250&color=gradient&text=0xKnowles&reversal=false&textBg=false&fontAlign=50&animation=twinkling&rotate=0&fontColor=e04a4a"/>
 
-- 🔭 I’m currently working on **IPM Calculator**
+- 🔭 I’m currently working on **the Bio Tackle Box**
 
 
 <p align="left">
