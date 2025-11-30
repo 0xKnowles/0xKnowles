@@ -2,7 +2,7 @@
 <h3 align="center">Grower and IPM specialist with a focus in floriculture and cannabis</h3>
 <img align="center" src="https://capsule-render.vercel.app/api?type=venom&height=250&color=gradient&text=0xKnowles&reversal=false&textBg=false&fontAlign=50&animation=twinkling&rotate=0&fontColor=e04a4a"/>
 
-<H4> I’m currently working on <a href="https://www.biotacklebox.ca/)"> Bio Tackle Box </a></H4>
+<H4> I’m currently working on <a href="https://www.biotacklebox.ca/"> Bio Tackle Box </a></H4>
 
 - A toolkit web application designed for IPM professionals and growers to understand, manage, and visualize biological pest control programs. It elevates IPM strategy by integrating a comprehensive agent library with, AI-driven tools and a visual IPM program planner.
 
