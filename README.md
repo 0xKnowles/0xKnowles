@@ -21,7 +21,7 @@ An open-source custom firmware fork for the **XTEink X3 and X4 mini e-ink reader
   * **Plant Diary Sleep Screen:** A dual-pane standby screen displaying your sleeping plant alongside an RTC-synced daily achievement summary.
   * **Hardware Optimizations:** High-fidelity SD card `.bmp` asset probing, custom bezel key long-press shortcuts, and a research-backed typography engine featuring *Lexend Deca* and *Bitter*.
 
-#### 🎣 [Bio Tackle Box](https://github.com/0xKnowles/Bio-Tackle-Box)
+#### 🎣 Bio Tackle Box
 A dedicated, full-stack application designed for agricultural management. It streamlines digital tracking, workflows, and essential data management for specialized growing environments.
 * **Stack:** TypeScript, React, and Angular framework infrastructure.
 
