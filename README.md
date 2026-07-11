@@ -10,7 +10,7 @@ I am a Software and Hardware Developer specializing in full-stack applications, 
 
 ### 📂 Featured Projects
 
-#### 🌿🐣 [CrossPlant XTEink](https://github.com/0xKnowles/CrossPlant-Xteink)
+#### 🌿🐣 [CrossPlant XTEink](https://github.com/0xKnowles/PocketPet)
 An open-source custom firmware fork for the **XTEink X3 and X4 mini e-ink readers**. It merges the advanced typography and performance optimizations of *CrossInk* with a re-engineered virtual plant companion mechanics system (*CrossPet*).
 
 * **The Virtual Plant System:** Features a reading-driven ecosystem where plant stats (Moisture, Happiness, Health, Discipline) decay in real time while awake, evolving through branches (**Scholar 🎓**, **Balanced ⚖️**, or **Wild 🌲**) based on actual reading habits and streaks.
