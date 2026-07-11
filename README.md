@@ -2,13 +2,76 @@
 <h3 align="center">Grower and IPM specialist with a focus in floriculture and cannabis</h3>
 <img align="center" src="https://capsule-render.vercel.app/api?type=venom&height=250&color=gradient&text=0xKnowles&reversal=false&textBg=false&fontAlign=50&animation=twinkling&rotate=0&fontColor=e04a4a"/>
 
-<H4> I’m currently working on <a href="https://www.biotacklebox.ca/"> Bio Tackle Box </a></H4>
+# Hi there, I'm Cameron (0xKnowles) 👋
 
-- A toolkit web application designed for IPM professionals and growers to understand, manage, and visualize biological pest control programs. It elevates IPM strategy by integrating a comprehensive agent library with, AI-driven tools and a visual IPM program planner.
+I am a Software and Hardware Developer specializing in full-stack applications, custom PCB design, and automated agricultural technology. I build solutions that bridge the gap between real-time data interfaces and physical hardware telemetry.
 
-<p align="left">
-</p>
+- 🛠️ **Current Focus:** Custom microcontroller routing, automated cultivation monitors, and embedded systems.
+- 🚀 **Core Stack:** TypeScript, React, Angular, Node.js, C++, and KiCad for hardware design.
+- 🌱 **Domain Expertise:** A strong background in IT infrastructure paired with deep practical experience in Integrated Pest Management (IPM) and commercial greenhouse technology.
 
-<h3 align="left">Languages and Tools used:</h3>
-<p align="left"> <a href="https://cordova.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" alt="apachecordova" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+---
 
+### 📂 Featured Projects
+
+#### 🎣 [Bio Tackle Box](https://github.com/0xKnowles/Bio-Tackle-Box)
+A dedicated, full-stack application designed for agricultural management. It streamlines tracking, workflows, and essential data management for specialized growing environments.
+* **Stack:** TypeScript, React/Angular framework infrastructure.
+
+#### 🧬 [CrossPlant Xteink](https://github.com/0xKnowles/CrossPlant-Xteink)
+My latest repository focused on specialized data handling, integration, or structural pipelines tailored for botanical and plant-tracking ecosystems.
+
+#### 💧 HydroLogix / DWC Monitor (Custom Hardware)
+An automated Deep Water Culture (DWC) environmental monitor built from the ground up to track real-time reservoir metrics.
+* **Hardware & Firmware:** Custom schematic capture and PCB routing designed in **KiCad**.
+* **Features:** Integrated ultrasonic sensors (Elegoo HC-SR04) for precise liquid-level tracking and environmental telemetry, housed in a custom 3D-printed enclosure.
+
+---
+
+### 💻 Technical Toolbelt
+
+<table>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+      <br>React
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=angular" width="48" height="48" alt="Angular" />
+      <br>Angular
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
+      <br>TypeScript
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+      <br>Node.js
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
+      <br>C++ / Embedded
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=kicad" width="48" height="48" alt="KiCad" />
+      <br>KiCad
+    </td>
+  </tr>
+</table>
+
+### 🛠️ Hardware & Fabrication Capabilities
+* **PCB Routing:** Multilayer board design, sensor integration, and low-voltage power distribution.
+* **Rapid Prototyping:** 3D printing custom mechanical enclosures tailored perfectly to physical circuit form factors.
+* **Telemetry Loops:** Connecting edge-case sensor arrays with digital UI dashboards.
+
+---
+
+### 📈 GitHub Ecosystem
+
+![Cameron's GitHub stats](https://github-readme-stats.vercel.app/api?username=0xKnowles&show_icons=true&theme=gotham)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0xKnowles&layout=compact&theme=gotham)
+
+---
+
+### 🤝 Let's Connect
+- 💼 [LinkedIn](YOUR_LINKEDIN_URL)
