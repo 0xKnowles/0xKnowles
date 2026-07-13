@@ -1,4 +1,4 @@
-# Hi there, I'm Cameron (0xKnowles) 👋
+# Hi there, I'm 0xKnowles 👋
 
 I am a Software and Hardware Developer specializing in full-stack applications, custom embedded firmware, and physical hardware telemetry. I build solutions that bridge the gap between elegant user interfaces and physical device engineering.
 
