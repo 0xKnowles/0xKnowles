@@ -10,6 +10,26 @@ I am a Software and Hardware Developer specializing in full-stack applications, 
 
 ### 📂 Featured Projects
 
+#### 📡🔒 [Ruby (Pocket Cryptid)](https://github.com/0xKnowles/Ruby)
+Custom firmware for the **XTEink X3 and X4** e-ink readers that turns the hardware into a stealthy, long-battery-life passive RF signal analyzer — with a small digital companion living in the corner of the screen.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/0xKnowles/Ruby/claude/pocket-cryptid-firmware-a7td6q/bmp/boot.bmp" width="240" alt="Ruby boot splash art">
+</p>
+
+* **Passive RF Capture:** 802.11 monitor-mode WiFi sniffing (beacons, probe requests, WPA 4-way-handshake detection) plus passive BLE advertisement scanning — receive-only by default, nothing associates, pairs, or transmits.
+* **Encrypted On-Device Logging:** Every observation is deduplicated and independently written to an AES-256-GCM encrypted daily log, decryptable right on the device with no PC required.
+* **Ruby, the Companion:** A small creature reacts with a changing mood as a live front-end for what it's hearing, plus a Level 1-5 badge and header EXP bar tracking lifetime progress from unique devices seen and handshakes captured.
+* **Opt-in Auditing Tools:** Raw `.pcap` handshake export for offline password auditing with hashcat, plus an active-deauth capability gated behind an explicit, off-by-default whitelist/blacklist targeting system.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/0xKnowles/Ruby/claude/pocket-cryptid-firmware-a7td6q/bmp/excited.bmp" width="90" alt="Ruby, EXCITED">
+  <img src="https://raw.githubusercontent.com/0xKnowles/Ruby/claude/pocket-cryptid-firmware-a7td6q/bmp/curious.bmp" width="90" alt="Ruby, CURIOUS">
+  <img src="https://raw.githubusercontent.com/0xKnowles/Ruby/claude/pocket-cryptid-firmware-a7td6q/bmp/content.bmp" width="90" alt="Ruby, CONTENT">
+  <img src="https://raw.githubusercontent.com/0xKnowles/Ruby/claude/pocket-cryptid-firmware-a7td6q/bmp/bored.bmp" width="90" alt="Ruby, BORED">
+  <img src="https://raw.githubusercontent.com/0xKnowles/Ruby/claude/pocket-cryptid-firmware-a7td6q/bmp/lonely.bmp" width="90" alt="Ruby, LONELY">
+</p>
+
 #### 🌿🐣 [CrossPlant XTEink](https://github.com/0xKnowles/PocketPet)
 An open-source custom firmware fork for the **XTEink X3 and X4 mini e-ink readers**. It merges the advanced typography and performance optimizations of *CrossInk* with a re-engineered virtual plant companion mechanics system (*CrossPet*).
 
