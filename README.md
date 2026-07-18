@@ -14,8 +14,10 @@ I love Plants, Tech and AI
 Custom firmware for the **XTEink X3 and X4** e-ink readers that turns the hardware into a stealthy, long-battery-life passive RF signal analyzer — with a small digital companion living in the corner of the screen.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/0xKnowles/Ruby/claude/pocket-cryptid-firmware-a7td6q/bmp/boot.bmp" width="240" alt="Ruby boot splash art">
+<img height="250" alt="Handshake" src="https://github.com/user-attachments/assets/a6e14307-bd01-49e7-aea4-693c88bfaf39" />
+<img height="250" alt="Settings" src="https://github.com/user-attachments/assets/c150fb60-7484-4df4-8232-365d0ffd381e" />  
 </p>
+
 
 * **Passive RF Capture:** 802.11 monitor-mode WiFi sniffing (beacons, probe requests, WPA 4-way-handshake detection) plus passive BLE advertisement scanning — receive-only by default, nothing associates, pairs, or transmits.
 * **Encrypted On-Device Logging:** Every observation is deduplicated and independently written to an AES-256-GCM encrypted daily log, decryptable right on the device with no PC required.
