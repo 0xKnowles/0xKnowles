@@ -1,6 +1,6 @@
 # Hi there, I'm 0xKnowles 👋
 
-I am a Software and Hardware Developer specializing in full-stack applications, custom embedded firmware, and physical hardware telemetry. I build solutions that bridge the gap between elegant user interfaces and physical device engineering.
+I love Plants, Tech and AI
 
 - 🚀 **Core Stack:** TypeScript, React, Angular, Node.js, C/C++, and KiCad for hardware design.
 - 🛠️ **Current Focus:** Custom embedded firmware optimizations, e-ink interfaces, and automated cultivation monitors.
@@ -10,7 +10,7 @@ I am a Software and Hardware Developer specializing in full-stack applications, 
 
 ### 📂 Featured Projects
 
-#### 📡🔒 [Ruby (Pocket Cryptid)](https://github.com/0xKnowles/Ruby)
+#### 📡🔒 [Ruby Firmware](https://github.com/0xKnowles/Ruby)
 Custom firmware for the **XTEink X3 and X4** e-ink readers that turns the hardware into a stealthy, long-battery-life passive RF signal analyzer — with a small digital companion living in the corner of the screen.
 
 <p align="center">
@@ -30,7 +30,7 @@ Custom firmware for the **XTEink X3 and X4** e-ink readers that turns the hardwa
   <img src="https://raw.githubusercontent.com/0xKnowles/Ruby/claude/pocket-cryptid-firmware-a7td6q/bmp/lonely.bmp" width="90" alt="Ruby, LONELY">
 </p>
 
-#### 🌿🐣 [CrossPlant XTEink](https://github.com/0xKnowles/PocketPet)
+#### 🌿🐣 [CrossPlant Firmware](https://github.com/0xKnowles/PocketPet)
 An open-source custom firmware fork for the **XTEink X3 and X4 mini e-ink readers**. It merges the advanced typography and performance optimizations of *CrossInk* with a re-engineered virtual plant companion mechanics system (*CrossPet*).
 
 * **The Virtual Plant System:** Features a reading-driven ecosystem where plant stats (Moisture, Happiness, Health, Discipline) decay in real time while awake, evolving through branches (**Scholar 🎓**, **Balanced ⚖️**, or **Wild 🌲**) based on actual reading habits and streaks.
@@ -45,7 +45,7 @@ An open-source custom firmware fork for the **XTEink X3 and X4 mini e-ink reader
 A dedicated, full-stack application designed for agricultural management. It streamlines digital tracking, workflows, and essential data management for specialized growing environments.
 * **Stack:** TypeScript, React, and Angular framework infrastructure.
 
-#### 💧 HydroLogix / DWC Monitor (Custom Hardware)
+#### 💧 HydroLogix - DWC Monitor (Custom Hardware)
 An automated Deep Water Culture (DWC) environmental monitor built from the ground up to track real-time reservoir metrics.
 * **Hardware & Firmware:** Custom schematic capture and PCB layout routed entirely in **KiCad**.
 * **Features:** Utilizes an Elegoo HC-SR04 ultrasonic sensor for precise, real-time liquid-level tracking and environmental telemetry, all housed in a custom-designed, 3D-printed enclosure.
