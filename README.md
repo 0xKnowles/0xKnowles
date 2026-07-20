@@ -1,5 +1,9 @@
 # Hi there, I'm 0xKnowles 👋
 
+> **A full portfolio site (same content as this README, in a browsable format) lives in
+> [`docs/`](docs/) — enable GitHub Pages on this repo (Settings → Pages → Deploy from branch →
+> `/docs`) to serve it at `https://0xknowles.github.io/0xKnowles/`.**
+
 I love Plants, Tech and AI
 
 - 🚀 **Core Stack:** TypeScript, React, Angular, Node.js, C/C++, and KiCad for hardware design.
@@ -32,7 +36,7 @@ Custom firmware for the **XTEink X3 and X4** e-ink readers that turns the hardwa
   <img src="https://raw.githubusercontent.com/0xKnowles/Ruby/claude/pocket-cryptid-firmware-a7td6q/bmp/lonely.bmp" width="90" alt="Ruby, LONELY">
 </p>
 
-#### 🌿🐣 [CrossPlant Firmware](https://github.com/0xKnowles/PocketPet)
+#### 🌿🐣 [CrossPlant Firmware](https://github.com/0xKnowles/CrossPlant)
 An open-source custom firmware fork for the **XTEink X3 and X4 mini e-ink readers**. It merges the advanced typography and performance optimizations of *CrossInk* with a re-engineered virtual plant companion mechanics system (*CrossPet*).
 
 * **The Virtual Plant System:** Features a reading-driven ecosystem where plant stats (Moisture, Happiness, Health, Discipline) decay in real time while awake, evolving through branches (**Scholar 🎓**, **Balanced ⚖️**, or **Wild 🌲**) based on actual reading habits and streaks.
