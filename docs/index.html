@@ -5,20 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>0xKnowles — Plants, Tech &amp; AI</title>
 <meta name="description" content="0xKnowles — embedded firmware, e-ink interfaces, and greenhouse automation. Builder of Ruby and CrossPlant.">
+<meta property="og:title" content="0xKnowles — Plants, Tech &amp; AI">
+<meta property="og:description" content="Embedded firmware, e-ink interfaces, and greenhouse automation. Builder of Ruby and CrossPlant.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
 <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+<div class="grain" aria-hidden="true"></div>
 
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header" id="top">
   <div class="wrap header-inner">
     <a class="brand" href="#top">
-      <img src="assets/img/favicon.svg" alt="" width="22" height="22">
+      <img src="assets/img/favicon.svg" alt="" class="brand-mark" width="24" height="24">
       <span>0xKnowles</span>
     </a>
     <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation">
@@ -40,33 +46,37 @@
   <section class="hero">
     <div class="wrap hero-inner">
       <div class="hero-copy">
-        <p class="eyebrow">Firmware &amp; Full-Stack</p>
-        <h1>Hi there, I'm 0xKnowles <span class="wave">👋</span></h1>
-        <p class="lede">
+        <p class="eyebrow" data-reveal>Firmware &amp; Full-Stack</p>
+        <h1 data-reveal><span class="prefix">0x</span>Knowles<span class="cursor" aria-hidden="true"></span></h1>
+        <p class="lede" data-reveal>
           I love <strong>Plants</strong>, <strong>Tech</strong>, and <strong>AI</strong>. I build
           custom embedded firmware, e-ink interfaces, and automated cultivation monitors — backed
           by a background in IT infrastructure and deep experience in Integrated Pest Management
           (IPM) and greenhouse automation.
         </p>
-        <div class="hero-actions">
+        <div class="hero-actions" data-reveal>
           <a class="btn btn-primary" href="#projects">View Projects</a>
-          <a class="btn btn-ghost" href="https://github.com/0xKnowles" target="_blank" rel="noopener">GitHub Profile</a>
+          <a class="btn btn-ghost" href="https://github.com/0xKnowles" target="_blank" rel="noopener">GitHub Profile ↗</a>
         </div>
       </div>
       <div class="hero-art">
-        <div class="hero-collage">
+        <div class="hero-collage" data-reveal>
           <div class="collage-card card-a">
-            <picture>
-              <source srcset="assets/img/ruby/excited.webp" type="image/webp">
-              <img src="assets/img/ruby/excited.png" width="143" height="200" alt="Ruby, the RF-analyzer firmware's reactive companion, EXCITED" loading="eager">
-            </picture>
+            <div class="plate">
+              <picture>
+                <source srcset="assets/img/ruby/excited.webp" type="image/webp">
+                <img src="assets/img/ruby/excited.png" width="143" height="200" alt="Ruby, the RF-analyzer firmware's reactive companion, EXCITED" loading="eager">
+              </picture>
+            </div>
             <p class="collage-label">Ruby — RF Firmware</p>
           </div>
           <div class="collage-card card-b">
-            <picture>
-              <source srcset="assets/img/crossplant/begonia-1.webp" type="image/webp">
-              <img src="assets/img/crossplant/begonia-1.png" width="144" height="144" alt="CrossPlant's Rooted Begonia sprite" loading="eager">
-            </picture>
+            <div class="plate">
+              <picture>
+                <source srcset="assets/img/crossplant/begonia-1.webp" type="image/webp">
+                <img src="assets/img/crossplant/begonia-1.png" width="144" height="144" alt="CrossPlant's Rooted Begonia sprite" loading="eager">
+              </picture>
+            </div>
             <p class="collage-label">CrossPlant — Plant Firmware</p>
           </div>
         </div>
@@ -77,17 +87,17 @@
   <!-- ABOUT -->
   <section class="section" id="about">
     <div class="wrap">
-      <h2 class="section-title"><span class="tag">whoami</span>About</h2>
+      <h2 class="section-title" data-reveal><span class="tag">whoami</span>About</h2>
       <div class="grid grid-3">
-        <div class="card">
+        <div class="card" data-reveal>
           <h3>🚀 Core Stack</h3>
           <p>TypeScript, React, Angular, Node.js, C/C++, and KiCad for hardware design.</p>
         </div>
-        <div class="card">
+        <div class="card" data-reveal>
           <h3>🛠️ Current Focus</h3>
           <p>Custom embedded firmware optimizations, e-ink interfaces, and automated cultivation monitors.</p>
         </div>
-        <div class="card">
+        <div class="card" data-reveal>
           <h3>🌱 Domain Expertise</h3>
           <p>A strong background in IT infrastructure paired with deep experience in Integrated Pest Management (IPM) and greenhouse automation.</p>
         </div>
@@ -98,12 +108,11 @@
   <!-- PROJECTS -->
   <section class="section alt" id="projects">
     <div class="wrap">
-      <h2 class="section-title"><span class="tag">ls ~/projects</span>Featured Projects</h2>
+      <h2 class="section-title" data-reveal><span class="tag">ls ~/projects</span>Featured Projects</h2>
 
-      <div class="project">
+      <div class="project" data-reveal>
         <div class="project-head">
           <h3>📡🔒 Ruby Firmware</h3>
-          <a class="repo-link" href="https://github.com/0xKnowles/Ruby" target="_blank" rel="noopener">github.com/0xKnowles/Ruby ↗</a>
         </div>
         <p class="project-desc">
           Custom firmware for the <strong>Xteink X3 and X4</strong> e-ink readers that turns the
@@ -111,26 +120,31 @@
           digital companion living in the corner of the screen.
         </p>
         <div class="project-body">
-          <ul class="features">
-            <li><strong>Passive RF Capture:</strong> 802.11 monitor-mode WiFi sniffing (beacons, probe requests, WPA 4-way-handshake detection) plus passive BLE advertisement scanning — receive-only by default, nothing associates, pairs, or transmits.</li>
-            <li><strong>Encrypted On-Device Logging:</strong> Every observation is deduplicated and independently written to an AES-256-GCM encrypted daily log, decryptable right on the device with no PC required.</li>
-            <li><strong>Ruby, the Companion:</strong> A small creature reacts with a changing mood as a live front-end for what it's hearing, plus a Level 1-5 badge and header EXP bar tracking lifetime progress from unique devices seen and handshakes captured.</li>
-            <li><strong>Opt-in Auditing Tools:</strong> Raw <code>.pcap</code> handshake export for offline password auditing with hashcat, plus an active-deauth capability gated behind an explicit, off-by-default whitelist/blacklist targeting system.</li>
-          </ul>
+          <div>
+            <ul class="features">
+              <li><strong>Passive RF Capture:</strong> 802.11 monitor-mode WiFi sniffing (beacons, probe requests, WPA 4-way-handshake detection) plus passive BLE advertisement scanning — receive-only by default, nothing associates, pairs, or transmits.</li>
+              <li><strong>Encrypted On-Device Logging:</strong> Every observation is deduplicated and independently written to an AES-256-GCM encrypted daily log, decryptable right on the device with no PC required.</li>
+              <li><strong>Ruby, the Companion:</strong> A small creature reacts with a changing mood as a live front-end for what it's hearing, plus a Level 1-5 badge and header EXP bar tracking lifetime progress from unique devices seen and handshakes captured.</li>
+              <li><strong>Opt-in Auditing Tools:</strong> Raw <code>.pcap</code> handshake export for offline password auditing with hashcat, plus an active-deauth capability gated behind an explicit, off-by-default whitelist/blacklist targeting system.</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-primary btn-sm" href="https://0xknowles.github.io/Ruby/" target="_blank" rel="noopener">View Site ↗</a>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/0xKnowles/Ruby" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
           <div class="project-media">
-            <picture><source srcset="assets/img/ruby/boot.webp" type="image/webp"><img src="assets/img/ruby/boot.png" width="396" height="264" alt="Ruby's boot splash art" loading="lazy"></picture>
+            <div class="plate"><picture><source srcset="assets/img/ruby/boot.webp" type="image/webp"><img src="assets/img/ruby/boot.png" width="396" height="264" alt="Ruby's boot splash art" loading="lazy"></picture></div>
             <div class="media-row">
-              <picture><source srcset="assets/img/ruby/excited.webp" type="image/webp"><img src="assets/img/ruby/excited.png" width="143" height="200" alt="Ruby, EXCITED" loading="lazy"></picture>
-              <picture><source srcset="assets/img/ruby/curious.webp" type="image/webp"><img src="assets/img/ruby/curious.png" width="200" height="200" alt="Ruby, CURIOUS" loading="lazy"></picture>
+              <div class="plate"><picture><source srcset="assets/img/ruby/excited.webp" type="image/webp"><img src="assets/img/ruby/excited.png" width="143" height="200" alt="Ruby, EXCITED" loading="lazy"></picture></div>
+              <div class="plate"><picture><source srcset="assets/img/ruby/curious.webp" type="image/webp"><img src="assets/img/ruby/curious.png" width="200" height="200" alt="Ruby, CURIOUS" loading="lazy"></picture></div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="project">
+      <div class="project" data-reveal>
         <div class="project-head">
           <h3>🌿🐣 CrossPlant Firmware</h3>
-          <a class="repo-link" href="https://github.com/0xKnowles/CrossPlant" target="_blank" rel="noopener">github.com/0xKnowles/CrossPlant ↗</a>
         </div>
         <p class="project-desc">
           An open-source custom firmware fork for the <strong>Xteink X3 and X4</strong> e-ink
@@ -139,50 +153,39 @@
           (<em>CrossPet</em>).
         </p>
         <div class="project-body">
-          <ul class="features">
-            <li><strong>The Virtual Plant System:</strong> A reading-driven ecosystem where plant stats (Moisture, Happiness, Health, Discipline) decay in real time while awake, evolving through branches (Scholar 🎓, Balanced ⚖️, or Wild 🌲) based on actual reading habits and streaks.</li>
-            <li><strong>Two-Column UI:</strong> A space-efficient layout separating plant vitals from detailed reading partner statistics.</li>
-            <li><strong>Dew Drops (DD) Economy:</strong> Real-time reading reward synchronization (+1 DD per page, +100 DD per book, time-based accumulation) to spend in an interactive item &amp; cosmetic accessory shop.</li>
-            <li><strong>Dynamic Canvas Rendering:</strong> Pixel-art accessories (Glasses, Wizard Hats, Crowns) scale and render directly on top of the plant's sprite.</li>
-            <li><strong>Plant Diary Sleep Screen:</strong> A dual-pane standby screen displaying your sleeping plant alongside an RTC-synced daily achievement summary.</li>
-            <li><strong>Hardware Optimizations:</strong> High-fidelity SD card <code>.bmp</code> asset probing, custom bezel key long-press shortcuts, and a research-backed typography engine featuring Lexend Deca and Bitter.</li>
-          </ul>
+          <div>
+            <ul class="features">
+              <li><strong>The Virtual Plant System:</strong> A reading-driven ecosystem where plant stats (Moisture, Happiness, Health, Discipline) decay in real time while awake, evolving through branches (Scholar 🎓, Balanced ⚖️, or Wild 🌲) based on actual reading habits and streaks.</li>
+              <li><strong>Two-Column UI:</strong> A space-efficient layout separating plant vitals from detailed reading partner statistics.</li>
+              <li><strong>Dew Drops (DD) Economy:</strong> Real-time reading reward synchronization (+1 DD per page, +100 DD per book, time-based accumulation) to spend in an interactive item &amp; cosmetic accessory shop.</li>
+              <li><strong>Dynamic Canvas Rendering:</strong> Pixel-art accessories (Glasses, Wizard Hats, Crowns) scale and render directly on top of the plant's sprite.</li>
+              <li><strong>Plant Diary Sleep Screen:</strong> A dual-pane standby screen displaying your sleeping plant alongside an RTC-synced daily achievement summary.</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-primary btn-sm" href="https://0xknowles.github.io/CrossPlant/" target="_blank" rel="noopener">View Site ↗</a>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/0xKnowles/CrossPlant" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
           <div class="project-media">
-            <picture><source srcset="assets/img/crossplant/my-plants-screen.webp" type="image/webp"><img src="assets/img/crossplant/my-plants-screen.png" width="216" height="300" alt="CrossPlant's My Plants screen" loading="lazy"></picture>
-            <picture><source srcset="assets/img/crossplant/mon-4.webp" type="image/webp"><img src="assets/img/crossplant/mon-4.png" width="144" height="144" alt="CrossPlant's Prized Monstera sprite" loading="lazy"></picture>
+            <div class="plate"><picture><source srcset="assets/img/crossplant/my-plants-screen.webp" type="image/webp"><img src="assets/img/crossplant/my-plants-screen.png" width="216" height="300" alt="CrossPlant's My Plants screen" loading="lazy"></picture></div>
+            <div class="plate"><picture><source srcset="assets/img/crossplant/mon-4.webp" type="image/webp"><img src="assets/img/crossplant/mon-4.png" width="144" height="144" alt="CrossPlant's Prized Monstera sprite" loading="lazy"></picture></div>
           </div>
         </div>
       </div>
 
-      <div class="project">
-        <div class="project-head">
+      <h3 class="section-title" style="font-size:1.15rem; margin:2.5rem 0 1.4rem;" data-reveal><span class="tag">also</span>Other Projects</h3>
+      <div class="grid grid-2">
+        <div class="mini-card" data-reveal>
+          <span class="card-tag">Full-Stack</span>
           <h3>🎣 Bio Tackle Box</h3>
+          <p>A dedicated, full-stack application designed for agricultural management. It streamlines digital tracking, workflows, and essential data management for specialized growing environments.</p>
+          <p class="stack">TypeScript · React · Angular</p>
         </div>
-        <p class="project-desc">
-          A dedicated, full-stack application designed for agricultural management. It streamlines
-          digital tracking, workflows, and essential data management for specialized growing
-          environments.
-        </p>
-        <div class="project-body no-media">
-          <ul class="features">
-            <li><strong>Stack:</strong> TypeScript, React, and Angular framework infrastructure.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="project">
-        <div class="project-head">
-          <h3>💧 HydroLogix — DWC Monitor <span style="color:var(--text-faint); font-weight:400; font-size:0.85rem;">(Custom Hardware)</span></h3>
-        </div>
-        <p class="project-desc">
-          An automated Deep Water Culture (DWC) environmental monitor built from the ground up to
-          track real-time reservoir metrics.
-        </p>
-        <div class="project-body no-media">
-          <ul class="features">
-            <li><strong>Hardware &amp; Firmware:</strong> Custom schematic capture and PCB layout routed entirely in KiCad.</li>
-            <li><strong>Features:</strong> Utilizes an Elegoo HC-SR04 ultrasonic sensor for precise, real-time liquid-level tracking and environmental telemetry, all housed in a custom-designed, 3D-printed enclosure.</li>
-          </ul>
+        <div class="mini-card" data-reveal>
+          <span class="card-tag">Custom Hardware</span>
+          <h3>💧 HydroLogix — DWC Monitor</h3>
+          <p>An automated Deep Water Culture monitor built from the ground up to track real-time reservoir metrics — schematic capture and PCB layout routed entirely in KiCad, with an ultrasonic sensor for precise liquid-level tracking in a custom 3D-printed enclosure.</p>
+          <p class="stack">KiCad · ESP32 · HC-SR04 · 3D Print</p>
         </div>
       </div>
     </div>
@@ -191,14 +194,31 @@
   <!-- TOOLBELT -->
   <section class="section" id="toolbelt">
     <div class="wrap">
-      <h2 class="section-title"><span class="tag">stack</span>Technical Toolbelt</h2>
-      <div class="skills">
+      <h2 class="section-title" data-reveal><span class="tag">stack</span>Technical Toolbelt</h2>
+    </div>
+    <div class="marquee" data-reveal aria-label="Technologies I work with">
+      <div class="marquee-track">
         <span class="skill-pill"><span class="dot"></span>C / C++</span>
         <span class="skill-pill"><span class="dot"></span>KiCad</span>
         <span class="skill-pill"><span class="dot"></span>React</span>
         <span class="skill-pill"><span class="dot"></span>Angular</span>
         <span class="skill-pill"><span class="dot"></span>TypeScript</span>
         <span class="skill-pill"><span class="dot"></span>Node.js</span>
+        <span class="skill-pill"><span class="dot"></span>ESP32 / RISC-V</span>
+        <span class="skill-pill"><span class="dot"></span>Embedded Firmware</span>
+        <span class="skill-pill"><span class="dot"></span>E-Ink Displays</span>
+        <span class="skill-pill"><span class="dot"></span>PCB Design</span>
+        <!-- duplicate for seamless loop -->
+        <span class="skill-pill" aria-hidden="true"><span class="dot"></span>C / C++</span>
+        <span class="skill-pill" aria-hidden="true"><span class="dot"></span>KiCad</span>
+        <span class="skill-pill" aria-hidden="true"><span class="dot"></span>React</span>
+        <span class="skill-pill" aria-hidden="true"><span class="dot"></span>Angular</span>
+        <span class="skill-pill" aria-hidden="true"><span class="dot"></span>TypeScript</span>
+        <span class="skill-pill" aria-hidden="true"><span class="dot"></span>Node.js</span>
+        <span class="skill-pill" aria-hidden="true"><span class="dot"></span>ESP32 / RISC-V</span>
+        <span class="skill-pill" aria-hidden="true"><span class="dot"></span>Embedded Firmware</span>
+        <span class="skill-pill" aria-hidden="true"><span class="dot"></span>E-Ink Displays</span>
+        <span class="skill-pill" aria-hidden="true"><span class="dot"></span>PCB Design</span>
       </div>
     </div>
   </section>
@@ -206,17 +226,17 @@
   <!-- HARDWARE -->
   <section class="section alt" id="hardware">
     <div class="wrap">
-      <h2 class="section-title"><span class="tag">/dev/hw</span>Hardware &amp; Fabrication</h2>
+      <h2 class="section-title" data-reveal><span class="tag">/dev/hw</span>Hardware &amp; Fabrication</h2>
       <div class="grid grid-3">
-        <div class="card">
+        <div class="card" data-reveal>
           <h3>PCB Routing &amp; Embedded Design</h3>
           <p>Multilayer board layouts, physical input re-mapping, low-power display optimization, and hardware interrupt handling.</p>
         </div>
-        <div class="card">
+        <div class="card" data-reveal>
           <h3>Rapid Prototyping</h3>
           <p>3D printing custom mechanical enclosures tailored to exact circuit and button configurations.</p>
         </div>
-        <div class="card">
+        <div class="card" data-reveal>
           <h3>Telemetry &amp; I/O</h3>
           <p>Interfacing custom edge sensor arrays with digital frontend dashboards and embedded UI layouts.</p>
         </div>
@@ -229,14 +249,14 @@
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <div class="brand">
-      <img src="assets/img/favicon.svg" alt="" width="18" height="18">
+      <img src="assets/img/favicon.svg" alt="" width="20" height="20">
       <span>0xKnowles</span>
     </div>
     <p>Plants, tech, and AI. Building firmware for hardware that shouldn't exist.</p>
     <div class="footer-links">
       <a href="https://github.com/0xKnowles" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://github.com/0xKnowles/Ruby" target="_blank" rel="noopener">Ruby</a>
-      <a href="https://github.com/0xKnowles/CrossPlant" target="_blank" rel="noopener">CrossPlant</a>
+      <a href="https://0xknowles.github.io/Ruby/" target="_blank" rel="noopener">Ruby</a>
+      <a href="https://0xknowles.github.io/CrossPlant/" target="_blank" rel="noopener">CrossPlant</a>
       <a href="#top">Back to top ↑</a>
     </div>
   </div>
