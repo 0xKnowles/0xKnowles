@@ -14,6 +14,38 @@ I love Plants, Tech and AI
 
 ### 📂 Featured Projects
 
+#### 🥋🃏 CapyDojo &nbsp;<img src="https://img.shields.io/badge/Private-555555?style=flat-square&logo=github&logoColor=white" alt="Private" />
+A cosy elemental card battle game for kids on **Android**, starring capybaras. Fire, water and ice: collect a winning set before the Sensei does.
+
+* **Unit-Tested Rules Engine:** Pure Kotlin game logic with no Android dependencies, driving a Jetpack Compose UI that stages every round as a little animated show.
+* **Progression:** Nine belts, card packs, deck building, rule-bending ability cards, a Daily Dojo and a stamp book.
+* **Built for Kids:** Colour-blind-friendly card shapes, an easy mode with a coach, and two-player modes on one phone.
+
+#### 🧠🛰️ F.R.A.M.E. &nbsp;<img src="https://img.shields.io/badge/Private-555555?style=flat-square&logo=github&logoColor=white" alt="Private" />
+**File Retrieval & Advanced Media Engine** — a self-hosted "second brain" for a seedbox media stack. Every app on the box holds one slice of the same story (requested, grabbed, downloaded, imported, playable, watched); F.R.A.M.E. polls them all, stitches the slices into one graph, and tells you exactly where any title is stuck and why.
+
+* **One Graph, Six Apps:** Normalized adapters merge Ombi, Sonarr, Radarr, SABnzbd, Plex/Tautulli and LazyLibrarian into a single graph where every node carries a health state (healthy, stalled, failed, orphaned, cold).
+* **Live 3D Visualization:** An interactive force-directed graph that updates in place over SSE as the poll loop runs.
+* **Ask It Anything:** Twelve read-only tools over the graph, including lifecycle tracing, reclaim ranking and read-only SQL, with a voice "ask orb" powered by an ElevenLabs Agent.
+* **Safe by Default:** Observes and explains only; optional actions are off unless enabled and need explicit approval.
+* **Stack:** TypeScript, Fastify, SQLite, React, Three.js, ElevenLabs.
+
+#### 🎮🧊 Stop 'n' Swop Restoration &nbsp;<img src="https://img.shields.io/badge/Private-555555?style=flat-square&logo=github&logoColor=white" alt="Private" />
+ROM patches that restore Rare's cut **Stop 'n' Swop** feature across the N64 chain **Banjo-Kazooie → Donkey Kong 64 → Banjo-Tooie → Ocarina of Time**. The original relied on RDRAM fading slowly while you swapped cartridges; this project rebuilds the missing senders and receivers from the decomp research up.
+
+* **Hand-Written MIPS Hooks:** Code tucked into unused ROM padding that finds the swap message, validates it with Rare's own checksum, and runs before each game clears RAM.
+* **Restored Content:** DK64's Big Icy Door, fridge and Gold DK Bust, Banjo-Tooie's Ice Key handoff and Super Jiggy, and a Mega Jiggy that reaches Ocarina of Time.
+* **Cart-Swap Emulator:** A patched Mupen64Plus core that dumps, reloads and decays RDRAM to simulate a real cartridge swap.
+* **Desktop Launcher:** A Qt app that verifies your own ROMs, applies the `.bps` patches and lets you "Hot Swap" between games. No ROMs or game assets are ever distributed.
+
+#### 📚⚡ FlipNzb &nbsp;<img src="https://img.shields.io/badge/Private-555555?style=flat-square&logo=github&logoColor=white" alt="Private" />
+Usenet and torrent automation for **ebooks, audiobooks and manga**, built the way Sonarr and Radarr work — because LazyLibrarian is largely unmaintained, Readarr is retired and the Goodreads API is gone.
+
+* **Monitors Authors & Manga by Volume:** Every volume is its own wanted item that can be grabbed and upgraded.
+* **Explains Every Decision:** Searches any newznab/torznab indexer plus Nyaa, and shows the exact approve/reject reasons for each release.
+* **End-to-End Pipeline:** Sends to SABnzbd, NZBGet or qBittorrent, then imports, renames, upgrades and blocklists failed downloads.
+* **E-Reader Conversion:** One-click manga conversion to XTC with tunable dithering and strip layout, feeding straight into KomaOS.
+
 #### 📡🔒 [Ruby Firmware](https://github.com/0xKnowles/Ruby)
 Custom firmware for the **XTEink X3 and X4** e-ink readers that turns the hardware into a stealthy, long-battery-life passive RF signal analyzer — with a small digital companion living in the corner of the screen.
 
@@ -60,23 +92,6 @@ Manga-first e-reader firmware for the **XTEink X3 and X4**, built as a fork of C
 * **KomaUI Theme:** A home screen laid out as manga panels, with covers, reading stats and inked menu rows.
 * **Full Reader Engine:** Keeps EPUB 2/3, hyphenation, dictionary lookups, KOReader sync, Wi-Fi transfer, OPDS, Calibre wireless and OTA updates.
 
-#### 🧠🛰️ F.R.A.M.E. &nbsp;<img src="https://img.shields.io/badge/Private-555555?style=flat-square&logo=github&logoColor=white" alt="Private" />
-**File Retrieval & Advanced Media Engine** — a self-hosted "second brain" for a seedbox media stack. Every app on the box holds one slice of the same story (requested, grabbed, downloaded, imported, playable, watched); F.R.A.M.E. polls them all, stitches the slices into one graph, and tells you exactly where any title is stuck and why.
-
-* **One Graph, Six Apps:** Normalized adapters merge Ombi, Sonarr, Radarr, SABnzbd, Plex/Tautulli and LazyLibrarian into a single graph where every node carries a health state (healthy, stalled, failed, orphaned, cold).
-* **Live 3D Visualization:** An interactive force-directed graph that updates in place over SSE as the poll loop runs.
-* **Ask It Anything:** Twelve read-only tools over the graph, including lifecycle tracing, reclaim ranking and read-only SQL, with a voice "ask orb" powered by an ElevenLabs Agent.
-* **Safe by Default:** Observes and explains only; optional actions are off unless enabled and need explicit approval.
-* **Stack:** TypeScript, Fastify, SQLite, React, Three.js, ElevenLabs.
-
-#### 🎮🧊 Stop 'n' Swop Restoration &nbsp;<img src="https://img.shields.io/badge/Private-555555?style=flat-square&logo=github&logoColor=white" alt="Private" />
-ROM patches that restore Rare's cut **Stop 'n' Swop** feature across the N64 chain **Banjo-Kazooie → Donkey Kong 64 → Banjo-Tooie → Ocarina of Time**. The original relied on RDRAM fading slowly while you swapped cartridges; this project rebuilds the missing senders and receivers from the decomp research up.
-
-* **Hand-Written MIPS Hooks:** Code tucked into unused ROM padding that finds the swap message, validates it with Rare's own checksum, and runs before each game clears RAM.
-* **Restored Content:** DK64's Big Icy Door, fridge and Gold DK Bust, Banjo-Tooie's Ice Key handoff and Super Jiggy, and a Mega Jiggy that reaches Ocarina of Time.
-* **Cart-Swap Emulator:** A patched Mupen64Plus core that dumps, reloads and decays RDRAM to simulate a real cartridge swap.
-* **Desktop Launcher:** A Qt app that verifies your own ROMs, applies the `.bps` patches and lets you "Hot Swap" between games. No ROMs or game assets are ever distributed.
-
 #### 🎙️🧪 Synapse Lab &nbsp;<img src="https://img.shields.io/badge/Private-555555?style=flat-square&logo=github&logoColor=white" alt="Private" />
 An expert workbench for learning LLMs and AI coding agents — **Claude Code, OpenAI Codex and Google Antigravity** — with a voice coach that briefs you, works the screen and verifies your work.
 
@@ -85,21 +100,6 @@ An expert workbench for learning LLMs and AI coding agents — **Claude Code, Op
 * **Knowledge Base, Not a Syllabus:** A 20-question calibration, 33 briefing entries and 15 hands-on labs rewritten for each agent.
 * **Living Visuals:** Synapse is rendered as a raw WebGL2 neural network of light that reacts to listening, thinking and speaking.
 * **Stack:** Next.js, React, TypeScript, Tailwind, Claude API, MCP, ElevenLabs, Supabase.
-
-#### 📚⚡ FlipNzb &nbsp;<img src="https://img.shields.io/badge/Private-555555?style=flat-square&logo=github&logoColor=white" alt="Private" />
-Usenet and torrent automation for **ebooks, audiobooks and manga**, built the way Sonarr and Radarr work — because LazyLibrarian is largely unmaintained, Readarr is retired and the Goodreads API is gone.
-
-* **Monitors Authors & Manga by Volume:** Every volume is its own wanted item that can be grabbed and upgraded.
-* **Explains Every Decision:** Searches any newznab/torznab indexer plus Nyaa, and shows the exact approve/reject reasons for each release.
-* **End-to-End Pipeline:** Sends to SABnzbd, NZBGet or qBittorrent, then imports, renames, upgrades and blocklists failed downloads.
-* **E-Reader Conversion:** One-click manga conversion to XTC with tunable dithering and strip layout, feeding straight into KomaOS.
-
-#### 🥋🃏 CapyDojo &nbsp;<img src="https://img.shields.io/badge/Private-555555?style=flat-square&logo=github&logoColor=white" alt="Private" />
-A cosy elemental card battle game for kids on **Android**, starring capybaras. Fire, water and ice: collect a winning set before the Sensei does.
-
-* **Unit-Tested Rules Engine:** Pure Kotlin game logic with no Android dependencies, driving a Jetpack Compose UI that stages every round as a little animated show.
-* **Progression:** Nine belts, card packs, deck building, rule-bending ability cards, a Daily Dojo and a stamp book.
-* **Built for Kids:** Colour-blind-friendly card shapes, an easy mode with a coach, and two-player modes on one phone.
 
 #### 🎣 Bio Tackle Box
 A dedicated, full-stack application designed for agricultural management. It streamlines digital tracking, workflows, and essential data management for specialized growing environments.
