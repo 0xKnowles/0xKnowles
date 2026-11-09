@@ -4,13 +4,14 @@
 
 **I like building things — across hardware and software.**
 
-I build AI agents and tooling over MCP, self-hosted media apps, e-ink reader firmware, and a shipped Android game — plus a fair bit of custom hardware. I've designed and built several PCBs, including a deep-water-culture (DWC) grow monitor, custom FlipperZero GPIO tools, and custom adapters. My background is in IT infrastructure and greenhouse automation, and I mostly learn by shipping real projects.
+I build AI agents and tooling over MCP, self-hosted media apps, e-ink reader firmware, and a shipped Android game — plus a fair bit of custom hardware. I've designed and built several PCBs, including a deep-water-culture (DWC) grow monitor, custom FlipperZero GPIO tools, and custom adapters. My background spans IT, high-volume greenhouse production and integrated pest management, and I currently work in AgTech / AI.
 
 Everything below is something I designed and built myself.
 
 <b>Experience</b><br>
-<img src="https://img.shields.io/badge/IT-8%20yrs%20combined-0969DA?style=flat-square" alt="8 years combined IT experience" />
-<img src="https://img.shields.io/badge/Greenhouse%20Growing%20%26%20IPM-5%20yrs-2EA043?style=flat-square" alt="5 years greenhouse growing and IPM" />
+<img src="https://img.shields.io/badge/IT%20Repair-8%20yrs-0969DA?style=flat-square" alt="IT repair, 8 years" />
+<img src="https://img.shields.io/badge/Greenhouse%20Production%20%26%20IPM-5%20yrs-2EA043?style=flat-square" alt="High-volume greenhouse production and integrated pest management, 5 years" />
+<img src="https://img.shields.io/badge/Now%3A%20AgTech%20%26%20AI-CSM%20%26%20Dev-8957E5?style=flat-square" alt="Currently AgTech and AI, Customer Success Manager and Developer" />
 
 <a href="https://github.com/0xKnowles"><img src="https://img.shields.io/badge/GitHub-0xKnowles-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="https://img.shields.io/badge/Google_Play-CapyDojo-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="CapyDojo on Google Play" /></a>
@@ -19,6 +20,16 @@ Everything below is something I designed and built myself.
 ---
 
 ## Featured Work
+
+### CapyDojo · Shipped Android game &nbsp;[![Available on Google Play](https://img.shields.io/badge/Google_Play-Available_Now-34A853?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.capydojo.app) &nbsp;[![Watch the trailer](https://img.shields.io/badge/Watch_Trailer-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/2yZWOrIU67c)
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="assets/capydojo-banner.jpg" alt="CapyDojo — available now on Google Play" width="640" /></a>
+</p>
+
+A cosy fire/water/ice card battler for Android starring capybaras — **live on Google Play**. A pure-Kotlin, fully unit-tested rules engine with no Android dependencies drives a Jetpack Compose UI, with nine belts, deck building, a Daily Dojo, colour-blind-friendly card shapes and local two-player.
+
+<sub>**Kotlin** · Jetpack Compose · Android · test-driven rules engine · [Google Play](https://play.google.com/store/apps/details?id=com.capydojo.app) · [Trailer](https://youtu.be/2yZWOrIU67c)</sub>
 
 ### F.R.A.M.E. · Self-hosted media "second brain" &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
 
@@ -45,16 +56,6 @@ It serves a live force-directed 3D view that updates in place over SSE, twelve r
 An expert workbench for learning LLMs and AI coding agents (Claude Code, OpenAI Codex, Google Antigravity) with a voice coach that briefs you, works the screen and verifies your work. A zero-dependency MCP connector lets the lab see your agent and workspace, so lab steps turn green on their own when the work is genuinely done on disk.
 
 <sub>**Next.js** · React · TypeScript · Tailwind · Claude API · MCP · ElevenLabs · Supabase</sub>
-
-### CapyDojo · Shipped Android game &nbsp;[![Available on Google Play](https://img.shields.io/badge/Google_Play-Available_Now-34A853?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.capydojo.app) &nbsp;[![Watch the trailer](https://img.shields.io/badge/Watch_Trailer-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/2yZWOrIU67c)
-
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="assets/capydojo-banner.jpg" alt="CapyDojo — available now on Google Play" width="640" /></a>
-</p>
-
-A cosy fire/water/ice card battler for Android starring capybaras — **live on Google Play**. A pure-Kotlin, fully unit-tested rules engine with no Android dependencies drives a Jetpack Compose UI, with nine belts, deck building, a Daily Dojo, colour-blind-friendly card shapes and local two-player.
-
-<sub>**Kotlin** · Jetpack Compose · Android · test-driven rules engine · [Google Play](https://play.google.com/store/apps/details?id=com.capydojo.app) · [Trailer](https://youtu.be/2yZWOrIU67c)</sub>
 
 ### [KomaOS](https://github.com/0xKnowles/KomaOS) · Manga-first e-reader firmware
 
@@ -131,5 +132,5 @@ Sonarr/Radarr-style automation for ebooks, audiobooks and manga — built becaus
 ---
 
 <p align="center">
-  <sub>Embedded firmware · full-stack TypeScript · AI agents &amp; MCP · custom hardware &amp; greenhouse automation</sub>
+  <sub>Embedded firmware · full-stack TypeScript · AI agents &amp; MCP · custom hardware &amp; AgTech</sub>
 </p>
