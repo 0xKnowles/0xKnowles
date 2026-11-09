@@ -1,21 +1,14 @@
-<h1 align="center">0xKnowles</h1>
+# 0xKnowles
 
-<p align="center">
-  <b>Embedded Systems &amp; Full-Stack Engineer</b>
-</p>
+**I like building things — across hardware and software.**
 
-<p align="center">
-  I build across the whole stack — from hand-tuned C++ firmware for memory-constrained<br>
-  e-ink hardware, to full-stack TypeScript apps, AI agents, and custom-designed PCBs.<br>
-  My background pairs IT infrastructure with deep experience in greenhouse<br>
-  automation and integrated pest management.
-</p>
+E-ink reader firmware, self-hosted media tools, a shipped Android game, AI agents and MCP, and the occasional custom PCB. My background is in IT infrastructure and greenhouse automation, and I mostly learn by shipping real projects.
 
-<p align="center">
-  <a href="https://github.com/0xKnowles"><img src="https://img.shields.io/badge/GitHub-0xKnowles-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="https://img.shields.io/badge/Google_Play-CapyDojo-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="CapyDojo on Google Play" /></a>
-  <a href="https://synapse-lab-nu.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Synapse_Lab-FF6B5E?style=for-the-badge&logo=vercel&logoColor=white" alt="Synapse Lab live demo" /></a>
-</p>
+Everything below is something I designed and built myself. A lot of it is built hands-on with AI coding agents — I lean on them heavily and enjoy figuring out how to get the most out of them.
+
+<a href="https://github.com/0xKnowles"><img src="https://img.shields.io/badge/GitHub-0xKnowles-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="https://img.shields.io/badge/Google_Play-CapyDojo-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="CapyDojo on Google Play" /></a>
+<a href="https://synapse-lab-nu.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Synapse_Lab-FF6B5E?style=for-the-badge&logo=vercel&logoColor=white" alt="Synapse Lab live demo" /></a>
 
 ---
 
