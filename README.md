@@ -1,8 +1,10 @@
-<img src="assets/0xk-logo.jpg" alt="0xKnowles" width="150" />
+<p align="center">
+  <img src="assets/0xk-logo-rounded.png" alt="0xKnowles" width="150" />
+</p>
 
 **I like building things — across hardware and software.**
 
-E-ink reader firmware, self-hosted media tools, a shipped Android game, AI agents and MCP, and the occasional custom PCB. My background is in IT infrastructure and greenhouse automation, and I mostly learn by shipping real projects.
+I build AI agents and tooling over MCP, self-hosted media apps, e-ink reader firmware, and a shipped Android game — plus a fair bit of custom hardware. I've designed and built several PCBs, including a deep-water-culture (DWC) grow monitor, custom FlipperZero GPIO tools, and custom adapters. My background is in IT infrastructure and greenhouse automation, and I mostly learn by shipping real projects.
 
 Everything below is something I designed and built myself.
 
@@ -18,23 +20,15 @@ Everything below is something I designed and built myself.
 
 ## Featured Work
 
-### CapyDojo · Shipped Android game &nbsp;[![Available on Google Play](https://img.shields.io/badge/Google_Play-Available_Now-34A853?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.capydojo.app) &nbsp;[![Watch the trailer](https://img.shields.io/badge/Watch_Trailer-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/2yZWOrIU67c)
-
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="assets/capydojo-banner.jpg" alt="CapyDojo — available now on Google Play" width="640" /></a>
-</p>
-
-A cosy fire/water/ice card battler for Android starring capybaras — **live on Google Play**. A pure-Kotlin, fully unit-tested rules engine with no Android dependencies drives a Jetpack Compose UI, with nine belts, deck building, a Daily Dojo, colour-blind-friendly card shapes and local two-player.
-
-<sub>**Kotlin** · Jetpack Compose · Android · test-driven rules engine · [Google Play](https://play.google.com/store/apps/details?id=com.capydojo.app) · [Trailer](https://youtu.be/2yZWOrIU67c)</sub>
-
 ### F.R.A.M.E. · Self-hosted media "second brain" &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
 
 <p align="center">
   <img src="assets/frame-banner.png" alt="F.R.A.M.E. — File Retrieval & Advanced Media Engine" width="560" />
 </p>
 
-**File Retrieval &amp; Advanced Media Engine** — normalized adapters merge six seedbox apps (Ombi, Sonarr, Radarr, SABnzbd, Plex/Tautulli, LazyLibrarian) into a single graph where every title carries a health state, so you can see exactly where a download is stuck and why. Includes a live force-directed 3D view over SSE and twelve read-only query tools with an ElevenLabs voice "ask orb."
+**File Retrieval &amp; Advanced Media Engine** — a self-hosted "second brain" for a seedbox media stack. Six apps each hold one slice of every title's story (requested → grabbed → downloaded → imported → playable → watched); F.R.A.M.E. polls them all through normalized adapters (Ombi, Sonarr, Radarr, SABnzbd, Plex/Tautulli, LazyLibrarian) and stitches the slices into a single graph where every node carries a health state — healthy, stalled, failed, orphaned or cold — so you can see exactly where any download is stuck and why.
+
+It serves a live force-directed 3D view that updates in place over SSE, twelve read-only query tools (lifecycle tracing, reclaim ranking, read-only SQL) and a voice "ask orb" powered by an ElevenLabs agent. Safe by default: it observes and explains only — any optional action is off unless enabled and needs explicit approval.
 
 <p align="center">
   <img src="assets/frame-graph.png" alt="F.R.A.M.E. live 3D media graph with the voice ask-orb" height="380" />
@@ -51,6 +45,16 @@ A cosy fire/water/ice card battler for Android starring capybaras — **live on 
 An expert workbench for learning LLMs and AI coding agents (Claude Code, OpenAI Codex, Google Antigravity) with a voice coach that briefs you, works the screen and verifies your work. A zero-dependency MCP connector lets the lab see your agent and workspace, so lab steps turn green on their own when the work is genuinely done on disk.
 
 <sub>**Next.js** · React · TypeScript · Tailwind · Claude API · MCP · ElevenLabs · Supabase</sub>
+
+### CapyDojo · Shipped Android game &nbsp;[![Available on Google Play](https://img.shields.io/badge/Google_Play-Available_Now-34A853?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.capydojo.app) &nbsp;[![Watch the trailer](https://img.shields.io/badge/Watch_Trailer-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/2yZWOrIU67c)
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="assets/capydojo-banner.jpg" alt="CapyDojo — available now on Google Play" width="640" /></a>
+</p>
+
+A cosy fire/water/ice card battler for Android starring capybaras — **live on Google Play**. A pure-Kotlin, fully unit-tested rules engine with no Android dependencies drives a Jetpack Compose UI, with nine belts, deck building, a Daily Dojo, colour-blind-friendly card shapes and local two-player.
+
+<sub>**Kotlin** · Jetpack Compose · Android · test-driven rules engine · [Google Play](https://play.google.com/store/apps/details?id=com.capydojo.app) · [Trailer](https://youtu.be/2yZWOrIU67c)</sub>
 
 ### [KomaOS](https://github.com/0xKnowles/KomaOS) · Manga-first e-reader firmware
 
