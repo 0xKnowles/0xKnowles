@@ -2,9 +2,9 @@
   <img src="assets/0xk-logo-rounded.png" alt="0xKnowles" width="150" />
 </p>
 
-**I like building things — across hardware and software.**
+**I like building things across hardware and software.**
 
-I build AI agents and tooling over MCP, self-hosted media apps, e-ink reader firmware, and a shipped Android game — plus a fair bit of custom hardware. I've designed and built several PCBs, including a deep-water-culture (DWC) grow monitor, custom FlipperZero GPIO tools, and custom adapters. My background spans IT, high-volume greenhouse production and integrated pest management, and I currently work in AgTech / AI.
+I build AI agents and tooling over MCP, self-hosted media apps, e-ink reader firmware, and a shipped Android game, plus a fair bit of custom hardware. I've designed and built several PCBs, including a deep-water-culture (DWC) grow monitor, custom FlipperZero GPIO tools, and custom adapters. My background spans IT, high-volume greenhouse production and integrated pest management, and I currently work in AgTech / AI.
 
 Everything below is something I designed and built myself.
 
@@ -15,8 +15,6 @@ Everything below is something I designed and built myself.
 
 <a href="https://github.com/0xKnowles"><img src="https://img.shields.io/badge/GitHub-0xKnowles-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="https://img.shields.io/badge/Google_Play-CapyDojo-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="CapyDojo on Google Play" /></a>
-<a href="https://synapse-lab-nu.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Synapse_Lab-FF6B5E?style=for-the-badge&logo=vercel&logoColor=white" alt="Synapse Lab live demo" /></a>
-
 ---
 
 ## Featured Work
@@ -24,24 +22,24 @@ Everything below is something I designed and built myself.
 ### CapyDojo · Shipped Android game &nbsp;[![Available on Google Play](https://img.shields.io/badge/Google_Play-Available_Now-34A853?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.capydojo.app) &nbsp;[![Watch the trailer](https://img.shields.io/badge/Watch_Trailer-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/2yZWOrIU67c)
 
 <p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="assets/capydojo-banner.jpg" alt="CapyDojo — available now on Google Play" width="640" /></a>
+  <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="assets/capydojo-banner.jpg" alt="CapyDojo, available now on Google Play" width="640" /></a>
 </p>
 
-A cosy elemental card battler for Android starring capybaras — **live on Google Play**. Fire, Ice and Water clash rock-paper-scissors style (Fire beats Ice, Ice beats Water, Water beats Fire); you win a round on the higher number and a match by collecting three of one element or one of each. Work up from White Belt to Black Belt — each belt unlocking special cards, outfits, card packs and deck-ability slots — then take on the Sensei's challenge, with rule-bending ability cards like Power Up, Element Twist, Shield and Magnet.
+A cosy elemental card battler for Android starring capybaras, and it's **live on Google Play**. Fire, Ice and Water clash rock-paper-scissors style (Fire beats Ice, Ice beats Water, Water beats Fire); you win a round on the higher number and a match by collecting three of one element or one of each. Work up from White Belt to Black Belt, with each belt unlocking special cards, outfits, card packs and deck-ability slots, then take on the Sensei's challenge, with rule-bending ability cards like Power Up, Element Twist, Shield and Magnet.
 
-Modes include Arcade Endless and Timed, a Daily Dojo, a Friends Tour of five characters who each play by their own house rule, and pass-and-play two-player on a single phone. There's a full collection layer — 14 outfits, 11 card backs, a binder and stamp book, and cards that wear from Near Mint to Damaged and can be sealed in graded slabs. It's built kid-first: picture tutorials and a "Show Me" walkthrough, an easy mode with Coach Capy, a half-speed explain mode, colour-blind card shapes, and no ads, no chat and no accounts. Free to play with a single one-time Full Dojo unlock.
+Modes include Arcade Endless and Timed, a Daily Dojo, a Friends Tour of five characters who each play by their own house rule, and pass-and-play two-player on a single phone. There's a full collection layer too: 14 outfits, 11 card backs, a binder and stamp book, and cards that wear from Near Mint to Damaged and can be sealed in graded slabs. It's built kid-first: picture tutorials and a "Show Me" walkthrough, an easy mode with Coach Capy, a half-speed explain mode, colour-blind card shapes, and no ads, no chat and no accounts. Free to play with a single one-time Full Dojo unlock.
 
 <sub>**Kotlin** · Jetpack Compose · Android · test-driven rules engine · [Google Play](https://play.google.com/store/apps/details?id=com.capydojo.app) · [Trailer](https://youtu.be/2yZWOrIU67c)</sub>
 
 ### F.R.A.M.E. · Self-hosted media "second brain" &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
 
 <p align="center">
-  <img src="assets/frame-banner.png" alt="F.R.A.M.E. — File Retrieval & Advanced Media Engine" width="560" />
+  <img src="assets/frame-banner.png" alt="F.R.A.M.E. File Retrieval & Advanced Media Engine" width="560" />
 </p>
 
-**File Retrieval &amp; Advanced Media Engine** — a self-hosted "second brain" for a seedbox media stack. Six apps each hold one slice of every title's story (requested → grabbed → downloaded → imported → playable → watched); F.R.A.M.E. polls them all through normalized adapters (Ombi, Sonarr, Radarr, SABnzbd, Plex/Tautulli, LazyLibrarian) and stitches the slices into a single graph where every node carries a health state — healthy, stalled, failed, orphaned or cold — so you can see exactly where any download is stuck and why.
+**File Retrieval &amp; Advanced Media Engine** is a self-hosted "second brain" for a seedbox media stack. Six apps each hold one slice of every title's story (requested, grabbed, downloaded, imported, playable, watched); F.R.A.M.E. polls them all through normalized adapters (Ombi, Sonarr, Radarr, SABnzbd, Plex/Tautulli, LazyLibrarian) and stitches the slices into a single graph where every node carries a health state (healthy, stalled, failed, orphaned or cold), so you can see exactly where any download is stuck and why.
 
-It serves a live force-directed 3D view that updates in place over SSE, twelve read-only query tools (lifecycle tracing, reclaim ranking, read-only SQL) and a voice "ask orb" powered by an ElevenLabs agent. Safe by default: it observes and explains only — any optional action is off unless enabled and needs explicit approval.
+It serves a live force-directed 3D view that updates in place over SSE, twelve read-only query tools (lifecycle tracing, reclaim ranking, read-only SQL) and a voice "ask orb" powered by an ElevenLabs agent. Safe by default: it observes and explains only, and any optional action is off unless enabled and needs explicit approval.
 
 <p align="center">
   <img src="assets/frame-graph.png" alt="F.R.A.M.E. live 3D media graph with the voice ask-orb" height="380" />
@@ -49,7 +47,7 @@ It serves a live force-directed 3D view that updates in place over SSE, twelve r
 
 <sub>**TypeScript** · Fastify · SQLite · React · Three.js · ElevenLabs · observe-only by default</sub>
 
-### Synapse Lab · Hands-on workbench for AI coding agents &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" /> &nbsp;[![live](https://img.shields.io/badge/live-demo-FF6B5E?style=flat-square)](https://synapse-lab-nu.vercel.app)
+### Synapse Lab · Hands-on workbench for AI coding agents &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
 
 <p align="center">
   <img src="assets/synapse-lab-banner.png" alt="Synapse Lab" width="560" />
@@ -61,7 +59,7 @@ An expert workbench for learning LLMs and AI coding agents (Claude Code, OpenAI 
 
 ### [KomaOS](https://github.com/0xKnowles/KomaOS) · Manga-first e-reader firmware
 
-Firmware for the XTEink X3/X4 (ESP32-C3) built so a page turn never decodes a JPEG. With only ~380&nbsp;KB of RAM, pages are pre-rendered off-device into 1-bit/2-bit XTC and a turn becomes a decode-free blit — tall pages split into 1:1 strips or reassemble into a full spread, over a reader engine that keeps EPUB, dictionary lookups, KOReader sync and OTA updates.
+Firmware for the XTEink X3/X4 (ESP32-C3) built so a page turn never decodes a JPEG. With only ~380&nbsp;KB of RAM, pages are pre-rendered off-device into 1-bit/2-bit XTC and a turn becomes a decode-free blit. Tall pages split into 1:1 strips or reassemble into a full spread, over a reader engine that keeps EPUB, dictionary lookups, KOReader sync and OTA updates.
 
 <p align="center">
   <img height="230" alt="KomaOS boot screen" src="https://raw.githubusercontent.com/0xKnowles/KomaOS/master/docs/images/boot-screen.png" />
@@ -72,7 +70,7 @@ Firmware for the XTEink X3/X4 (ESP32-C3) built so a page turn never decodes a JP
 
 ### [Ruby](https://github.com/0xKnowles/Ruby) · Passive RF signal analyzer firmware
 
-Custom firmware that turns an XTEink e-ink reader into a stealthy, long-battery-life passive RF analyzer. Receive-only 802.11 monitor-mode sniffing (beacons, probe requests, WPA handshake detection) and BLE scanning, written to AES-256-GCM encrypted on-device logs — fronted by "Ruby," a small companion creature whose mood tracks what the radio is hearing.
+Custom firmware that turns an XTEink e-ink reader into a stealthy, long-battery-life passive RF analyzer. Receive-only 802.11 monitor-mode sniffing (beacons, probe requests, WPA handshake detection) and BLE scanning, written to AES-256-GCM encrypted on-device logs, fronted by "Ruby," a small companion creature whose mood tracks what the radio is hearing.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/0xKnowles/Ruby/claude/pocket-cryptid-firmware-a7td6q/bmp/excited.bmp" width="70" alt="Ruby, excited" />
@@ -96,13 +94,13 @@ An open-source firmware fork for the XTEink X3/X4 that merges CrossInk's typogra
   <img src="assets/stopnswop-mascot.jpg" alt="Stop 'n' Swop Restoration mascot" width="210" />
 </p>
 
-ROM patches that restore Rare's cut *Stop 'n' Swop* feature across the Banjo-Kazooie → DK64 → Banjo-Tooie → Ocarina of Time chain, rebuilding the missing senders and receivers from decomp research up. Hand-written MIPS hooks tucked into unused ROM padding, a patched Mupen64Plus core that decays RDRAM to emulate a real cartridge swap, and a Qt launcher that applies `.bps` patches to your own ROMs — no game assets are ever distributed.
+ROM patches that restore Rare's cut *Stop 'n' Swop* feature across the Banjo-Kazooie → DK64 → Banjo-Tooie → Ocarina of Time chain, rebuilding the missing senders and receivers from decomp research up. Hand-written MIPS hooks tucked into unused ROM padding, a patched Mupen64Plus core that decays RDRAM to emulate a real cartridge swap, and a Qt launcher that applies `.bps` patches to your own ROMs; no game assets are ever distributed.
 
 <sub>**MIPS assembly** · C++ · Qt · decomp / reverse engineering</sub>
 
 ### FlipNzb · Usenet &amp; torrent automation for books &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
 
-Sonarr/Radarr-style automation for ebooks, audiobooks and manga — built because LazyLibrarian is unmaintained and Readarr is retired. Monitors authors and manga per volume, searches any newznab/torznab indexer plus Nyaa with transparent approve/reject reasons, and runs the full grab → import → rename → upgrade pipeline, including one-click manga conversion that feeds straight into KomaOS.
+Sonarr/Radarr-style automation for ebooks, audiobooks and manga, built because LazyLibrarian is unmaintained and Readarr is retired. Monitors authors and manga per volume, searches any newznab/torznab indexer plus Nyaa with transparent approve/reject reasons, and runs the full grab → import → rename → upgrade pipeline, including one-click manga conversion that feeds straight into KomaOS.
 
 <sub>**TypeScript** · Node.js · SABnzbd / NZBGet / qBittorrent</sub>
 
