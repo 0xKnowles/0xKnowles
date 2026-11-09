@@ -33,7 +33,15 @@ A cosy fire/water/ice card battler for Android starring capybaras — **live on 
 
 ### F.R.A.M.E. · Self-hosted media "second brain" &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
 
+<p align="center">
+  <img src="assets/frame-banner.png" alt="F.R.A.M.E. — File Retrieval & Advanced Media Engine" width="560" />
+</p>
+
 **File Retrieval &amp; Advanced Media Engine** — normalized adapters merge six seedbox apps (Ombi, Sonarr, Radarr, SABnzbd, Plex/Tautulli, LazyLibrarian) into a single graph where every title carries a health state, so you can see exactly where a download is stuck and why. Includes a live force-directed 3D view over SSE and twelve read-only query tools with an ElevenLabs voice "ask orb."
+
+<p align="center">
+  <img src="assets/frame-graph.png" alt="F.R.A.M.E. live 3D media graph with the voice ask-orb" height="380" />
+</p>
 
 <sub>**TypeScript** · Fastify · SQLite · React · Three.js · ElevenLabs · observe-only by default</sub>
 
@@ -73,6 +81,12 @@ An open-source firmware fork for the XTEink X3/X4 that merges CrossInk's typogra
 <sub>**C++** · ESP32 · E-Ink · SD-backed asset rendering</sub>
 
 ### Stop 'n' Swop Restoration · N64 ROM research &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
+
+<p align="center">
+  <img src="assets/stopnswop-emblem.jpg" alt="Stop 'n' Swop Restoration emblem" width="210" />
+  &nbsp;&nbsp;
+  <img src="assets/stopnswop-mascot.jpg" alt="Stop 'n' Swop Restoration mascot" width="210" />
+</p>
 
 ROM patches that restore Rare's cut *Stop 'n' Swop* feature across the Banjo-Kazooie → DK64 → Banjo-Tooie → Ocarina of Time chain, rebuilding the missing senders and receivers from decomp research up. Hand-written MIPS hooks tucked into unused ROM padding, a patched Mupen64Plus core that decays RDRAM to emulate a real cartridge swap, and a Qt launcher that applies `.bps` patches to your own ROMs — no game assets are ever distributed.
 
