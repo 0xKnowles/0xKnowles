@@ -6,6 +6,10 @@ E-ink reader firmware, self-hosted media tools, a shipped Android game, AI agent
 
 Everything below is something I designed and built myself. A lot of it is built hands-on with AI coding agents — I lean on them heavily and enjoy figuring out how to get the most out of them.
 
+<b>Experience</b><br>
+<img src="https://img.shields.io/badge/IT-8%20yrs%20combined-0969DA?style=flat-square" alt="8 years combined IT experience" />
+<img src="https://img.shields.io/badge/Greenhouse%20Growing%20%26%20IPM-5%20yrs-2EA043?style=flat-square" alt="5 years greenhouse growing and IPM" />
+
 <a href="https://github.com/0xKnowles"><img src="https://img.shields.io/badge/GitHub-0xKnowles-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="https://img.shields.io/badge/Google_Play-CapyDojo-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="CapyDojo on Google Play" /></a>
 <a href="https://synapse-lab-nu.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Synapse_Lab-FF6B5E?style=for-the-badge&logo=vercel&logoColor=white" alt="Synapse Lab live demo" /></a>
