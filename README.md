@@ -47,6 +47,10 @@ A cosy fire/water/ice card battler for Android starring capybaras — **live on 
 
 ### Synapse Lab · Hands-on workbench for AI coding agents &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" /> &nbsp;[![live](https://img.shields.io/badge/live-demo-FF6B5E?style=flat-square)](https://synapse-lab-nu.vercel.app)
 
+<p align="center">
+  <img src="assets/synapse-lab-banner.png" alt="Synapse Lab" width="560" />
+</p>
+
 An expert workbench for learning LLMs and AI coding agents (Claude Code, OpenAI Codex, Google Antigravity) with a voice coach that briefs you, works the screen and verifies your work. A zero-dependency MCP connector lets the lab see your agent and workspace, so lab steps turn green on their own when the work is genuinely done on disk.
 
 <sub>**Next.js** · React · TypeScript · Tailwind · Claude API · MCP · ElevenLabs · Supabase</sub>
