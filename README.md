@@ -13,12 +13,35 @@
 
 <p align="center">
   <a href="https://github.com/0xKnowles"><img src="https://img.shields.io/badge/GitHub-0xKnowles-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="https://img.shields.io/badge/Google_Play-CapyDojo-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="CapyDojo on Google Play" /></a>
   <a href="https://synapse-lab-nu.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-Synapse_Lab-FF6B5E?style=for-the-badge&logo=vercel&logoColor=white" alt="Synapse Lab live demo" /></a>
 </p>
 
 ---
 
 ## Featured Work
+
+### CapyDojo · Shipped Android game &nbsp;[![Available on Google Play](https://img.shields.io/badge/Google_Play-Available_Now-34A853?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.capydojo.app)
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="assets/capydojo-banner.jpg" alt="CapyDojo — available now on Google Play" width="640" /></a>
+</p>
+
+A cosy fire/water/ice card battler for Android starring capybaras — **live on Google Play**. A pure-Kotlin, fully unit-tested rules engine with no Android dependencies drives a Jetpack Compose UI, with nine belts, deck building, a Daily Dojo, colour-blind-friendly card shapes and local two-player.
+
+<sub>**Kotlin** · Jetpack Compose · Android · test-driven rules engine · [▶ Google Play](https://play.google.com/store/apps/details?id=com.capydojo.app)</sub>
+
+### F.R.A.M.E. · Self-hosted media "second brain" &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
+
+**File Retrieval &amp; Advanced Media Engine** — normalized adapters merge six seedbox apps (Ombi, Sonarr, Radarr, SABnzbd, Plex/Tautulli, LazyLibrarian) into a single graph where every title carries a health state, so you can see exactly where a download is stuck and why. Includes a live force-directed 3D view over SSE and twelve read-only query tools with an ElevenLabs voice "ask orb."
+
+<sub>**TypeScript** · Fastify · SQLite · React · Three.js · ElevenLabs · observe-only by default</sub>
+
+### Synapse Lab · Hands-on workbench for AI coding agents &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" /> &nbsp;[![live](https://img.shields.io/badge/live-demo-FF6B5E?style=flat-square)](https://synapse-lab-nu.vercel.app)
+
+An expert workbench for learning LLMs and AI coding agents (Claude Code, OpenAI Codex, Google Antigravity) with a voice coach that briefs you, works the screen and verifies your work. A zero-dependency MCP connector lets the lab see your agent and workspace, so lab steps turn green on their own when the work is genuinely done on disk.
+
+<sub>**Next.js** · React · TypeScript · Tailwind · Claude API · MCP · ElevenLabs · Supabase</sub>
 
 ### [KomaOS](https://github.com/0xKnowles/KomaOS) · Manga-first e-reader firmware
 
@@ -49,29 +72,11 @@ An open-source firmware fork for the XTEink X3/X4 that merges CrossInk's typogra
 
 <sub>**C++** · ESP32 · E-Ink · SD-backed asset rendering</sub>
 
-### F.R.A.M.E. · Self-hosted media "second brain" &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
-
-**File Retrieval &amp; Advanced Media Engine** — normalized adapters merge six seedbox apps (Ombi, Sonarr, Radarr, SABnzbd, Plex/Tautulli, LazyLibrarian) into a single graph where every title carries a health state, so you can see exactly where a download is stuck and why. Includes a live force-directed 3D view over SSE and twelve read-only query tools with an ElevenLabs voice "ask orb."
-
-<sub>**TypeScript** · Fastify · SQLite · React · Three.js · ElevenLabs · observe-only by default</sub>
-
-### Synapse Lab · Hands-on workbench for AI coding agents &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" /> &nbsp;[![live](https://img.shields.io/badge/live-demo-FF6B5E?style=flat-square)](https://synapse-lab-nu.vercel.app)
-
-An expert workbench for learning LLMs and AI coding agents (Claude Code, OpenAI Codex, Google Antigravity) with a voice coach that briefs you, works the screen and verifies your work. A zero-dependency MCP connector lets the lab see your agent and workspace, so lab steps turn green on their own when the work is genuinely done on disk.
-
-<sub>**Next.js** · React · TypeScript · Tailwind · Claude API · MCP · ElevenLabs · Supabase</sub>
-
 ### Stop 'n' Swop Restoration · N64 ROM research &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
 
 ROM patches that restore Rare's cut *Stop 'n' Swop* feature across the Banjo-Kazooie → DK64 → Banjo-Tooie → Ocarina of Time chain, rebuilding the missing senders and receivers from decomp research up. Hand-written MIPS hooks tucked into unused ROM padding, a patched Mupen64Plus core that decays RDRAM to emulate a real cartridge swap, and a Qt launcher that applies `.bps` patches to your own ROMs — no game assets are ever distributed.
 
 <sub>**MIPS assembly** · C++ · Qt · decomp / reverse engineering</sub>
-
-### CapyDojo · Elemental card-battle game for kids &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
-
-A cosy fire/water/ice card battler for Android starring capybaras. A pure-Kotlin, fully unit-tested rules engine with no Android dependencies drives a Jetpack Compose UI, with nine belts, deck building, a Daily Dojo, colour-blind-friendly card shapes and local two-player.
-
-<sub>**Kotlin** · Jetpack Compose · Android · test-driven rules engine</sub>
 
 ### FlipNzb · Usenet &amp; torrent automation for books &nbsp;<img src="https://img.shields.io/badge/private-555?style=flat-square" alt="private" />
 
