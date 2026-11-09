@@ -1,10 +1,10 @@
-# 0xKnowles
+<img src="assets/0xk-logo.jpg" alt="0xKnowles" width="150" />
 
 **I like building things — across hardware and software.**
 
 E-ink reader firmware, self-hosted media tools, a shipped Android game, AI agents and MCP, and the occasional custom PCB. My background is in IT infrastructure and greenhouse automation, and I mostly learn by shipping real projects.
 
-Everything below is something I designed and built myself. A lot of it is built hands-on with AI coding agents — I lean on them heavily and enjoy figuring out how to get the most out of them.
+Everything below is something I designed and built myself.
 
 <b>Experience</b><br>
 <img src="https://img.shields.io/badge/IT-8%20yrs%20combined-0969DA?style=flat-square" alt="8 years combined IT experience" />
