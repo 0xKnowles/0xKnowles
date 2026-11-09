@@ -27,7 +27,9 @@ Everything below is something I designed and built myself.
   <a href="https://play.google.com/store/apps/details?id=com.capydojo.app"><img src="assets/capydojo-banner.jpg" alt="CapyDojo — available now on Google Play" width="640" /></a>
 </p>
 
-A cosy fire/water/ice card battler for Android starring capybaras — **live on Google Play**. A pure-Kotlin, fully unit-tested rules engine with no Android dependencies drives a Jetpack Compose UI, with nine belts, deck building, a Daily Dojo, colour-blind-friendly card shapes and local two-player.
+A cosy elemental card battler for Android starring capybaras — **live on Google Play**. Fire, Ice and Water clash rock-paper-scissors style (Fire beats Ice, Ice beats Water, Water beats Fire); you win a round on the higher number and a match by collecting three of one element or one of each. Work up from White Belt to Black Belt — each belt unlocking special cards, outfits, card packs and deck-ability slots — then take on the Sensei's challenge, with rule-bending ability cards like Power Up, Element Twist, Shield and Magnet.
+
+Modes include Arcade Endless and Timed, a Daily Dojo, a Friends Tour of five characters who each play by their own house rule, and pass-and-play two-player on a single phone. There's a full collection layer — 14 outfits, 11 card backs, a binder and stamp book, and cards that wear from Near Mint to Damaged and can be sealed in graded slabs. It's built kid-first: picture tutorials and a "Show Me" walkthrough, an easy mode with Coach Capy, a half-speed explain mode, colour-blind card shapes, and no ads, no chat and no accounts. Free to play with a single one-time Full Dojo unlock.
 
 <sub>**Kotlin** · Jetpack Compose · Android · test-driven rules engine · [Google Play](https://play.google.com/store/apps/details?id=com.capydojo.app) · [Trailer](https://youtu.be/2yZWOrIU67c)</sub>
 
